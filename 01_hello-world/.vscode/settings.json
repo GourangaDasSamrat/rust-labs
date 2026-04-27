@@ -1,0 +1,61 @@
+{
+  // Rust (rust-analyzer)
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+    "editor.formatOnSave": true
+  },
+
+  "rust-analyzer.rustfmt.rangeFormatting.enable": true,
+
+  // inlay hints
+  "rust-analyzer.inlayHints.bindingModeHints.enable": true,
+  "rust-analyzer.inlayHints.closureCaptureHints.enable": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "always",
+  "rust-analyzer.inlayHints.discriminantHints.enable": "fieldless",
+  "rust-analyzer.inlayHints.expressionAdjustmentHints.enable": "reborrow",
+  "rust-analyzer.inlayHints.implicitDrops.enable": true,
+  "rust-analyzer.inlayHints.lifetimeElisionHints.enable": "skip_trivial",
+  "rust-analyzer.inlayHints.rangeExclusiveHints.enable": true,
+
+  // lens
+  "rust-analyzer.lens.references.adt.enable": true,
+  "rust-analyzer.lens.references.enumVariant.enable": true,
+  "rust-analyzer.lens.references.method.enable": true,
+  "rust-analyzer.lens.references.trait.enable": true,
+
+  // diagnostics
+  "rust-analyzer.diagnostics.experimental.enable": true,
+  "rust-analyzer.diagnostics.styleLints.enable": true,
+
+  // toolchain & checks
+  "rust-analyzer.check.command": "clippy",
+  "rust-analyzer.check.extraArgs": [
+    "--",
+    "-W",
+    "clippy::pedantic",
+    "-W",
+    "clippy::nursery",
+    "-A",
+    "clippy::missing_docs_in_private_items"
+  ],
+
+  // cargo
+  "rust-analyzer.cargo.features": "all",
+  "rust-analyzer.cargo.buildScripts.enable": true,
+  "rust-analyzer.cargo.buildScripts.useRustcWrapper": true,
+
+  // proc macros
+  "rust-analyzer.procMacro.enable": true,
+  "rust-analyzer.procMacro.attributes.enable": true,
+
+  // completion
+  "rust-analyzer.completion.autoimport.enable": true,
+  "rust-analyzer.completion.autoself.enable": true,
+  "rust-analyzer.completion.fullFunctionSignatures.enable": true,
+
+  // semantic tokens
+  "rust-analyzer.semanticHighlighting.operator.enable": true,
+  "rust-analyzer.semanticHighlighting.operator.specialization.enable": true,
+  "rust-analyzer.semanticHighlighting.punctuation.enable": true,
+  "rust-analyzer.semanticHighlighting.punctuation.specialization.enable": true
+}
