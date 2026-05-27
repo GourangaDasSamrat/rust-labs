@@ -1,0 +1,7 @@
+{
+    // Only check current workspace members
+  "rust-analyzer.check.workspace": false,
+
+  // Avoid checking all targets/examples/tests
+  "rust-analyzer.cargo.allTargets": false,
+}
