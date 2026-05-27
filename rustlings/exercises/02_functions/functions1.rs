@@ -3,3 +3,5 @@
 fn main() {
     call_me(); // Don't change this line
 }
+
+const fn call_me() {}
