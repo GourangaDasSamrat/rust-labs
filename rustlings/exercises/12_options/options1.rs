@@ -2,8 +2,15 @@
 // If it's before 22:00 (24-hour system), then 5 scoops are left. At 22:00,
 // someone eats it all, so no ice cream is left (value 0). Return `None` if
 // `hour_of_day` is higher than 23.
-fn maybe_ice_cream(hour_of_day: u16) -> Option<u16> {
+const fn maybe_ice_cream(hour_of_day: u16) -> Option<u16> {
     // TODO: Complete the function body.
+    if hour_of_day > 23 {
+        None
+    } else if hour_of_day < 22 {
+        Some(5_u16)
+    } else {
+        Some(0_u16)
+    }
 }
 
 fn main() {
@@ -18,7 +25,7 @@ mod tests {
     fn raw_value() {
         // TODO: Fix this test. How do you get the value contained in the
         // Option?
-        let ice_creams = maybe_ice_cream(12);
+        let ice_creams = maybe_ice_cream(12).unwrap();
 
         assert_eq!(ice_creams, 5); // Don't change this line.
     }
