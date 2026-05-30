@@ -1,0 +1,7 @@
+[package]
+name = "generic_types"
+version = "0.1.0"
+edition = "2024"
+description = "A Rust project demonstrating generic types"
+
+[dependencies]
