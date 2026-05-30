@@ -11,6 +11,7 @@ members = [
     "07_packages_crates_and_modules/*",
     "08_common_collections/*",
     "09_error_handling/*",
+    "10_generic_traits_and_lifetimes/*",
 ]
 
 exclude = [
