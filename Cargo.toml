@@ -13,6 +13,7 @@ members = [
     "09_error_handling/*",
     "10_generic_traits_and_lifetimes/*", 
     "11_writing_automated_tests/*",
+    "12_an_io_project",
 ]
 
 exclude = [
