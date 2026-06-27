@@ -14,7 +14,8 @@ members = [
     "10_generic_traits_and_lifetimes/*", 
     "11_writing_automated_tests/*",
     "12_an_io_project",
-    "13_iterators_and_closures/*"
+    "13_iterators_and_closures/*",
+    "14_smart_pointers/*"
 ]
 
 exclude = [
