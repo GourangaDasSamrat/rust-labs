@@ -186,6 +186,10 @@ name = "slice_type"
 version = "0.1.0"
 
 [[package]]
+name = "smart_pointers_like_regular_references"
+version = "0.1.0"
+
+[[package]]
 name = "syn"
 version = "2.0.117"
 source = "registry+https://github.com/rust-lang/crates.io-index"
