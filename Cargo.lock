@@ -87,6 +87,10 @@ name = "how_to_write_tests"
 version = "0.1.0"
 
 [[package]]
+name = "interior_mutability_pattern"
+version = "0.1.0"
+
+[[package]]
 name = "iterators"
 version = "0.1.0"
 
