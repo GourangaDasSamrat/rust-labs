@@ -1,4 +1,4 @@
-# rust-labs 🚀
+# rust-labs 🦀 
 
 Personal Rust practice repository — a collection of small labs, exercises, and experiments I work on while learning and exploring Rust.
 
