@@ -16,7 +16,8 @@ members = [
     "12_an_io_project",
     "13_iterators_and_closures/*",
     "14_smart_pointers/*",
-    "15_fearless_concurrency/*"
+    "15_fearless_concurrency/*",
+    "personal-projects/*"
 ]
 
 exclude = [
