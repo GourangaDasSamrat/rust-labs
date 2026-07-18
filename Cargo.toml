@@ -17,6 +17,7 @@ members = [
     "13_iterators_and_closures/*",
     "14_smart_pointers/*",
     "15_fearless_concurrency/*",
+    "16_asynchronous_programming/*",
     "personal-projects/*"
 ]
 
