@@ -574,6 +574,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "futures_in_sequence"
+version = "0.1.0"
+dependencies = [
+ "tokio-stream",
+ "trpl",
+]
+
+[[package]]
 name = "fxhash"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
