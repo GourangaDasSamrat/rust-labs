@@ -18,6 +18,7 @@ members = [
     "14_smart_pointers/*",
     "15_fearless_concurrency/*",
     "16_asynchronous_programming/*",
+    "17_object_oriented_programming/*",
     "personal-projects/*"
 ]
 
