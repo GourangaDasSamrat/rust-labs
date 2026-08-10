@@ -3,6 +3,10 @@
 version = 4
 
 [[package]]
+name = "abstract_over_shared_behavior"
+version = "0.1.0"
+
+[[package]]
 name = "aggregator"
 version = "0.1.0"
 
@@ -248,6 +252,10 @@ dependencies = [
  "cpufeatures",
  "rand_core 0.10.1",
 ]
+
+[[package]]
+name = "characteristics_of_oop"
+version = "0.1.0"
 
 [[package]]
 name = "cleanup_with_the_drop_trait"
