@@ -24,6 +24,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "all_the_places_patterns_can_be_used"
+version = "0.1.0"
+
+[[package]]
 name = "all_together"
 version = "0.1.0"
 dependencies = [
