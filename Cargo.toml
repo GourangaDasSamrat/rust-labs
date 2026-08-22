@@ -20,6 +20,7 @@ members = [
     "16_asynchronous_programming/*",
     "17_object_oriented_programming/*",
     "18_patterns_and_matching/*",
+    "19_advanced_features/*",
     "personal-projects/*"
 ]
 
