@@ -11,6 +11,10 @@ name = "advanced_traits"
 version = "0.1.0"
 
 [[package]]
+name = "advanced_types"
+version = "0.1.0"
+
+[[package]]
 name = "aggregator"
 version = "0.1.0"
 
